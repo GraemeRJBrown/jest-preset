@@ -1,0 +1,27 @@
+{
+    "name": "jest-preset",
+    "version": "1.0.0",
+    "description": "Jest preset configuration",
+    "author": "GraemeRJBrown",
+    "keywords": [
+        "jest",
+        "preset"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/GraemeRJBrown/jest-preset"
+    },
+    "scripts": {
+        "test": "jest"
+    },
+    "pre-commit": [
+        "test"
+    ],
+    "jest": {
+        "preset": "./jest-preset"
+    },
+    "devDependencies": {
+        "jest": "^27.2.2",
+        "pre-commit": "^1.2.2"
+    }
+}
